@@ -22,10 +22,10 @@ class BurgerIngredients extends React.Component{
             case ('cheese') :
                 ingredient = <div className="Cheese"></div>
                 break;
-            case ('Salad'):
+            case ('salad'):
                 ingredient =<div className="Salad"></div> 
                 break;
-            case ('Bacon'):
+            case ('bacon'):
                 ingredient = <div className="Bacon"></div>
                 break;
             default :
